@@ -1,3 +1,3 @@
-function takeANumber(currentNumber, name) {
-  return `Welcome, ${name}. You are number ${currentNumber} in line.`
+function takeANumber(currentLine, name) {
+  return `Welcome, ${name}. You are number ${currentLine.push(name)} in line.`
 }
